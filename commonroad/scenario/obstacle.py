@@ -48,6 +48,8 @@ class ObstacleType(enum.Enum):
     BUILDING = "building"
     PILLAR = "pillar"
     MEDIAN_STRIP = "median_strip"
+    TRAILER = "trailer"
+    VAN = "van"
 
 
 class SignalState:
